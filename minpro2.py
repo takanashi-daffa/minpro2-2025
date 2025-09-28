@@ -114,6 +114,7 @@ except KeyError:
 except ZeroDivisionError:
     print("Terjadi pembagian dengan nol.")
 except (KeyboardInterrupt, EOFError):
-    print("\nProgram dihentikan oleh pengguna (ctrl+c atau ctrl+d).")
+    print("\nProgram dihentikan oleh pengguna (ctrl+c).")
 except Exception as e:
     print("Error tak terduga:", e)
+
