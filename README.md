@@ -39,7 +39,7 @@ Di bagian paling bawah ada try–except. Tujuannya supaya program gak langsung c
 
 
 
-#hasil coding\
+# hasil coding\
 <img width="1652" height="890" alt="Screenshot 2025-09-28 184336" src="https://github.com/user-attachments/assets/410db16f-6955-40ab-b715-545ab5caa6ab" />
 
 <img width="1652" height="364" alt="Screenshot 2025-09-28 184404" src="https://github.com/user-attachments/assets/fa5a7416-5da3-4eeb-9905-129cb54e347b" />
