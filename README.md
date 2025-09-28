@@ -34,19 +34,21 @@ Login juga pakai loop while True. User masukin username + password, kalau cocok 
 Error Handling
 Di bagian paling bawah ada try–except. Tujuannya supaya program gak langsung crash kalau ada error. Contoh: input angka salah format (ValueError), indeks data gak ada (IndexError), username gak ditemukan (KeyError), atau program dihentikan manual pakai Ctrl+C (KeyboardInterrupt). Jadi alurnya lebih aman.
 
-*flowchart.*
+# flowchart.
+<img width="1514" height="1426" alt="minpro2 1 drawio" src="https://github.com/user-attachments/assets/413b49ea-6d53-4683-8208-7fbc585fd6b8" />
 
 
 
 
-# hasil coding\
+# hasil coding
 <img width="1652" height="890" alt="Screenshot 2025-09-28 184336" src="https://github.com/user-attachments/assets/410db16f-6955-40ab-b715-545ab5caa6ab" />
 
 <img width="1652" height="364" alt="Screenshot 2025-09-28 184404" src="https://github.com/user-attachments/assets/fa5a7416-5da3-4eeb-9905-129cb54e347b" />
 
 <img width="1650" height="910" alt="Screenshot 2025-09-28 184419" src="https://github.com/user-attachments/assets/2d6e7f45-1b39-44d7-a0a9-16651bc244f0" />
 
-<img width="1654" height="752" alt="Screenshot 2025-09-28 184438" src="https://github.com/user-attachments/assets/7c664673-d3a7-478e-a3f9-de1e9daac8c6" />
+<img width="1648" height="751" alt="Screenshot 2025-09-28 192811" src="https://github.com/user-attachments/assets/1e056f6b-9686-4926-a7f1-01b0d8eb0237" />
+
 
 # hasil terminal
 diawal user disuruh memasukan nama dan pasword\
@@ -69,7 +71,18 @@ untuk menu kedua yaitu read, menu ini hanya bisa melihat data-data yang telah ad
 
 yang ketiga ada update, disini kita bisa melakukan update pada data yang telah ada/dibuat sebelumnya menjadi data baru\
 <img width="668" height="375" alt="Screenshot 2025-09-28 184719" src="https://github.com/user-attachments/assets/b454aa7a-230d-49b8-a86e-e6dee77678ce" />\
-setelah melakukan update akan muncul pada read\
+setelah melakukan update akan muncul pada read
 
 menu ke empat ada delete, sesuai nama menu ini digunakan untuk menghapus data yang ada. setelah menghapus data tersebut maka data hilang dan dapat di cek dalam read\
 <img width="688" height="588" alt="Screenshot 2025-09-28 184948" src="https://github.com/user-attachments/assets/16369f13-c54c-4bbe-8827-463dad087492" />
+
+ini adalah menu yang hanya bisa di lihat oleh admin\
+<img width="748" height="229" alt="Screenshot 2025-09-28 192437" src="https://github.com/user-attachments/assets/88232261-05a1-4481-93c6-6e4a374f293a" />\
+dan ini menu yang hanya bisa dilihat pengunjung\
+<img width="686" height="454" alt="Screenshot 2025-09-28 185043" src="https://github.com/user-attachments/assets/fb034f20-4b81-4477-a051-18e7191ae925" />
+
+jika memaksa pencet ctrl c maka program otomasi berhenti dan program memberitahu eror tersebut\
+<img width="646" height="194" alt="Screenshot 2025-09-28 185154" src="https://github.com/user-attachments/assets/926acb05-d3c9-48d2-bd97-eeeb7c9cb764" />
+
+jika memasukan user dan pasword tidak benar maka disuruh ulang\
+<img width="533" height="82" alt="Screenshot 2025-09-28 185223" src="https://github.com/user-attachments/assets/3525ca76-ead5-4464-96aa-0facbe539be9" />
